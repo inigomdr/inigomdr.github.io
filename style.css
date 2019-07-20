@@ -1,0 +1,67 @@
+/* Text */
+h1 {
+  font-family: monospace;
+  font-size:18;
+  margin: 0;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: monospace;
+  font-size:14;
+  margin: 0;
+}
+
+body {
+  font-family: monospace;
+  font-size:12;
+}
+
+.column {
+    /*width: 37%;*/
+    width: 40%;
+    float: left;
+}
+
+.images{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.books{
+    width: 20%;
+	height: auto;
+}
+
+.img50{
+	width: 50px;
+	height: auto;
+}
+
+.img100{
+	width: 100px;
+	height: auto;
+}
+
+/* Links */
+a:link {
+  text-decoration: underline dotted;
+  color: black;
+}
+
+a:visited {
+  text-decoration: underline dotted;
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through dotted;
+  color: black;
+}
+
+a:active {
+  text-decoration: line-through;
+  color: black;
+}
